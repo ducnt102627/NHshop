@@ -1,0 +1,54 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Product 1",
+            "price": 100000,
+            "image": "https://s3-alpha-sig.figma.com/img/4491/a0ea/43eebd52ea72d60650f31030ec4bf7e6?Expires=1711929600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dijU-TvL12Wvy2ba8gqHDN971sIeIphoSrLY2MXX3Y0sU8mYHB5aWnGqW4h7HwKO73dQScTY5TIubIocv0LF6Q6zbVBlRViotWQHyXCHuY7steT9wsiGuI9wSW7mZ0f-XMlflq1UnWQDyWDjAoezkjShf~-SkeRuB-cSLFf0203VaDEQ1lPcq-TGE5hR-DRMluCg3JioHYQjFLwg3XJ-80pxejI3onlOMHP~a-hrv36wq1trRIT4NN9LUDsAhwgNfvoLaxj9E4gcVB10-NX7TUF-HxbzxdUPuk93i4HGjHB2~6I~CGwROmn3yRPNcOQ0VzHnQnDLDSMCSSZiTkWSfA__",
+            "description": "This is product 1",
+            "discount": 30,
+            "quantity": 100,
+            "featured": true
+        },
+        {
+            "id": 2,
+            "name": "Product 2",
+            "price": 19.99,
+            "image": "https://picsum.photos/id/11/300/300",
+            "description": "This is product 2",
+            "discount": 0.1,
+            "quantity": 50,
+            "featured": false
+        },
+        {
+            "id": 3,
+            "name": "Product 3",
+            "price": 5.99,
+            "image": "https://picsum.photos/id/12/300/300",
+            "description": "This is product 3",
+            "discount": 0,
+            "quantity": 200,
+            "featured": true
+        },
+        {
+            "id": 4,
+            "name": "Product 4",
+            "price": 14.99,
+            "image": "https://picsum.photos/id/13/300/300",
+            "description": "This is product 4",
+            "discount": 0.2,
+            "quantity": 75,
+            "featured": true
+        },
+        {
+            "id": 5,
+            "name": "Product 5",
+            "price": 9.99,
+            "image": "https://picsum.photos/id/14/300/300",
+            "description": "This is product 5",
+            "discount": 0,
+            "quantity": 150,
+            "featured": false
+        }
+    ]
+}
