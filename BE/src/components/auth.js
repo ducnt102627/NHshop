@@ -55,7 +55,7 @@ export const signup = async (req, res) => {
         const exitUser = await User.findOne({ email });
         if (exitUser) {
             return res.status(400).json({ messages: "Email đã tồn tại" });
-        };
+        }
 
         const hasdedPassword = await bcryptjs.hash(password, 10);
         const role = (await User.countDocuments({})) === 0 ? "admin" : "user";
